@@ -11,28 +11,28 @@ Export Gemini API key and run the prototype:
 
 1. Research & Comparison of Auto-Marking Approaches: 
 
-    Keyword / Regex Matching: Fast and zero-cost, but fails on synonyms, rephrasing, or spelling mistakes common in 11+ students.
+        Keyword / Regex Matching: Fast and zero-cost, but fails on synonyms, rephrasing, or spelling mistakes common in 11+ students.
 
-    Embedding Similarity (SBERT): Captures semantic context well, but struggles to map multi-part rubrics to precise partial credit.
+        Embedding Similarity (SBERT): Captures semantic context well, but struggles to map multi-part rubrics to precise partial credit.
 
-    LLM-Based Grading (Gemini 3.6 Flash): Evaluates responses directly against natural language rubrics, awards partial credit accurately, and generates actionable feedback.
+        LLM-Based Grading (Gemini 3.6 Flash): Evaluates responses directly against natural language rubrics, awards partial credit accurately, and generates actionable feedback.
 
 2. Test Results & Evaluation:
 
-    Tested against 10 synthetic GCSE/11+ short-answer test cases.
+        Tested against 10 synthetic GCSE/11+ short-answer test cases.
 
-    High alignment between expected ground-truth scores and assigned model scores.
+        High alignment between expected ground-truth scores and assigned model scores.
 
-    Limitations: Strict LLM scoring may occasionally penalize valid responses if subtle details in the mark scheme are omitted.
+        Limitations: Strict LLM scoring may occasionally penalize valid responses if subtle details in the mark scheme are omitted.
 
 3. Integration Architecture: 
     
-    [Student UI (React/Next.js)] ──► [API Gateway / Cloud Function] ──► [PostgreSQL DB (Fetch Rubric)]
-                                                  │
-                                                  ▼
-                                        [Gemini 3.6 Flash API]
-                                                  │
-    [Display Feedback & Mark] ◄───────────────────┘
+        [Student UI (React/Next.js)] ──► [API Gateway / Cloud Function] ──► [PostgreSQL DB (Fetch Rubric)]
+                                                      │
+                                                      ▼
+                                            [Gemini 3.6 Flash API]
+                                                      │
+        [Display Feedback & Mark] ◄───────────────────┘
 
 4. Risks & Human Safeguards: 
     Risks: 
