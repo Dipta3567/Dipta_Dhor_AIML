@@ -1,0 +1,89 @@
+CS REVISE — AUTOMATED MULTIMODAL MARKING REPORT
+Generated via Gemini 3.5 Flash Engine
+
+======================================================================
+  (A) GCSE BIOLOGY: HANDWRITTEN HEART QUESTION
+======================================================================
+FINAL SCORE  : 2 / 2  (100.0%)
+HUMAN REVIEW : PASSED [OK]
+----------------------------------------------------------------------
+TRANSCRIPTION / VISUAL NOTES:
+  > Deoxygenated dude enters the rite atrium then the rite ventrical oxygenated blood is pumped from the left ventrical to the hole body.
+----------------------------------------------------------------------
+MARK BREAKDOWN:
+  * [1/1] Deoxygenated blood entering the right atrium/ventricle
+          Reason: The student correctly identifies that deoxygenated blood enters the right atrium and then the right ventricle. Although there are spelling errors ('dude' instead of 'blood', 'rite' instead of 'right', and 'ventrical' instead of 'ventricle'), the scientific understanding is clearly demonstrated.
+  * [1/1] Oxygenated blood pumped from the left ventricle to the body
+          Reason: The student correctly states that oxygenated blood is pumped from the left ventricle to the whole body. Spelling errors ('ventrical' instead of 'ventricle' and 'hole' instead of 'whole') do not prevent the mark from being awarded as the meaning is clear.
+----------------------------------------------------------------------
+STRENGTHS:
+  + Accurately describes the flow of deoxygenated blood through the right side of the heart.
+  + Correctly identifies that the left ventricle pumps oxygenated blood to the rest of the body.
+----------------------------------------------------------------------
+AREAS FOR IMPROVEMENT:
+  - Ensure key scientific and English terms are spelled correctly to avoid ambiguity (e.g., write 'blood' instead of 'dude', 'right' instead of 'rite', 'ventricle' instead of 'ventrical', and 'whole' instead of 'hole').
+======================================================================
+
+
+======================================================================
+  (B) COMPUTER SCIENCE: EVEN/ODD FLOWCHART DIAGRAM
+======================================================================
+FINAL SCORE  : 5 / 5  (100.0%)
+HUMAN REVIEW : PASSED [OK]
+----------------------------------------------------------------------
+TRANSCRIPTION / VISUAL NOTES:
+  > The diagram is a flowchart drawn on lined paper. It consists of:
+  > - A rounded rectangle terminator at the top containing the text 'Start'.
+  > - An arrow pointing down to a parallelogram containing the text 'Input'.
+  > - An arrow pointing down to a decision diamond containing the text 'if number % 2 = 0'.
+  > - A left branch labeled 'Yes' leading to a parallelogram containing 'Display "Even no"'.
+  > - A right branch labeled 'No' leading to a parallelogram containing 'Display "odd no"'.
+  > - Lines from the bottom of both output parallelograms merging into a single line with an arrow pointing down to a rounded rectangle terminator containing the text 'Stop'.
+----------------------------------------------------------------------
+MARK BREAKDOWN:
+  * [1/1] Start terminator present
+          Reason: The flowchart correctly begins with a 'Start' terminator in a rounded rectangle.
+  * [1/1] Input step present
+          Reason: The input step is correctly represented using a parallelogram labeled 'Input'.
+  * [1/1] Decision correctly formed
+          Reason: The decision is correctly placed inside a diamond shape with the condition 'if number % 2 = 0'.
+  * [1/1] Both branches correct
+          Reason: The 'Yes' branch correctly leads to displaying 'Even no' and the 'No' branch correctly leads to displaying 'odd no'.
+  * [1/1] End terminator present
+          Reason: Both branches merge and correctly terminate at a 'Stop' symbol represented by a rounded rectangle.
+----------------------------------------------------------------------
+STRENGTHS:
+  + Excellent use of standard flowchart symbols (terminators, parallelograms for I/O, and a diamond for decision).
+  + Clear and logical flow with correctly labeled branches ('Yes' and 'No').
+  + Correct mathematical logic used for checking even/odd numbers using the modulo operator.
+----------------------------------------------------------------------
+======================================================================
+
+
+======================================================================
+  (C) GCSE CS: 8-MARK CLOUD MIGRATION RESPONSE
+======================================================================
+FINAL SCORE  : 8 / 8  (100.0%)
+HUMAN REVIEW : PASSED [OK]
+----------------------------------------------------------------------
+TRANSCRIPTION / VISUAL NOTES:
+  > The student provided a typed response discussing the transition of a school's student record system from paper to a cloud-based database, addressing security, access control, GDPR compliance, and risk-benefit analysis.
+----------------------------------------------------------------------
+MARK BREAKDOWN:
+  * [3/3] AO1: Knowledge
+          Reason: The student demonstrates excellent knowledge of key concepts including encryption (in transit and at rest), role-based access control, automated off-site backups, and GDPR compliance (specifically identifying the school as the data controller and the need for a data processing agreement).
+  * [3/3] AO2: Application
+          Reason: The concepts are applied directly to the school context, contrasting the cloud database with physical paper files (e.g., filing cabinets, staff access to student records, and physical disaster resilience).
+  * [2/2] AO3: Analysis/Evaluation
+          Reason: The student successfully weighs the risks (such as cloud misconfiguration) against the benefits (automated backups, physical security) and provides a clear, justified conclusion regarding the migration.
+----------------------------------------------------------------------
+STRENGTHS:
+  + Excellent integration of legal requirements (GDPR, data controller role) with technical security measures.
+  + Clear contrast between the vulnerabilities of the legacy paper system and the cloud-based system.
+  + Strong, balanced conclusion that acknowledges implementation risks (misconfiguration) while justifying the transition.
+----------------------------------------------------------------------
+AREAS FOR IMPROVEMENT:
+  - To further enhance the answer, you could mention specific types of student data (e.g., sensitive personal data/special category data under GDPR) to make the application even more robust.
+======================================================================
+
+
